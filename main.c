@@ -35,7 +35,7 @@ int main(){
 
    }
 
-   printf("\nThe Palindrome numbers are: ");
+   printf("\nThe Palindromes numbers are: ");
 
 for(int i = number1 ; i <= number2 ; i++){
    if(isPalindrome(i)){
