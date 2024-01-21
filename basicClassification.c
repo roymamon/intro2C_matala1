@@ -11,7 +11,7 @@ int factorial(int n) { //recursive helper method to calculat factorial
 }
 
 int isPrime(int n) { //standart algorithm to check if a number is prime
-    if (n < 2) {
+    if (n < 1) {
         return FALSE;  
     }
 
