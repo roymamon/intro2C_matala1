@@ -20,7 +20,7 @@ int main(){
     } while (1);  
 
 
-   printf("The Armstrong numbers are: ");
+   printf("The Armstrong numbers are:");
 
    if (number1 > number2) {
         int temp = number1;
@@ -35,7 +35,7 @@ int main(){
 
    }
 
-   printf("\nThe Palindromes are: ");
+   printf("\nThe Palindromes are:");
 
 for(int i = number1 ; i <= number2 ; i++){
    if(isPalindrome(i)){
@@ -44,7 +44,7 @@ for(int i = number1 ; i <= number2 ; i++){
 
    }
 
-   printf("\nThe Prime numbers are: ");
+   printf("\nThe Prime numbers are:");
 
    for(int i = number1 ; i <= number2 ; i++){
    if(isPrime(i)){
@@ -54,7 +54,7 @@ for(int i = number1 ; i <= number2 ; i++){
    }
 
    
-   printf("\nThe Strong numbers are: ");
+   printf("\nThe Strong numbers are:");
 
    for(int i = number1 ; i <= number2 ; i++){
    if(isStrong(i)){
