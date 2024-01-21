@@ -30,7 +30,7 @@ int main(){
 
    for(int i = number1 ; i <= number2 ; i++){
    if(isArmstrong(i)){
-      printf("%d ", i);
+      printf(" %d", i);
 }
 
    }
@@ -39,7 +39,7 @@ int main(){
 
 for(int i = number1 ; i <= number2 ; i++){
    if(isPalindrome(i)){
-      printf("%d ", i);
+      printf(" %d", i);
 }
 
    }
@@ -48,7 +48,7 @@ for(int i = number1 ; i <= number2 ; i++){
 
    for(int i = number1 ; i <= number2 ; i++){
    if(isPrime(i)){
-      printf("%d ", i);
+      printf(" %d", i);
 }
 
    }
@@ -58,7 +58,7 @@ for(int i = number1 ; i <= number2 ; i++){
 
    for(int i = number1 ; i <= number2 ; i++){
    if(isStrong(i)){
-      printf("%d ", i);
+      printf(" %d", i);
 }
 
    }
