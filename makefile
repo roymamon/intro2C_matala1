@@ -5,6 +5,7 @@ CFLAGS = -Wall -g
 LFLAGS = -shared
 SFLAGS = rcs
 FP = -fPIC
+CFLAGS2 = -Wall
 
 MAIN = main.c
 HEADER = NumClass.h
