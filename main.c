@@ -63,6 +63,6 @@ for(int i = number1 ; i <= number2 ; i++){
 
    }
 
-
+return 0;
    
 }
