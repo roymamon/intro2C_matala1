@@ -8,7 +8,6 @@ int main(){
    int result;
 
    do { //checking if the input is valid
-        printf("Please enter two integers: ");
         result = scanf("%d%d", &number1, &number2);
 
         if (result == 2 && number1 > -1 && number2 > -1) {
