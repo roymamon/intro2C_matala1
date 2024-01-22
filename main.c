@@ -63,6 +63,7 @@ for(int i = number1 ; i <= number2 ; i++){
 
    }
 
+   printf("\n");
 return 0;
    
 }
